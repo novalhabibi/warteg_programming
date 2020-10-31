@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warteg Programming</title>
+
+
+    <!-- ini CSS -->
+    <style>
+        /* ini style dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #8c82e9;
+            min-width: 460px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* ini style dropdown  end */
+
+        /* ini style tabel */
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        #t01 th {
+            background-color: black;
+            color: rgb(167, 34, 34);
+        }
+
+        /* ini style tabel end */
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1>Selamat Datang di Warteg Programming</h1>
+    <h1>欢迎 di Warteg Programming</h1>
+
+
+
+    <h4>Ini Dropdown</h4>
+    <div class="dropdown">
+        <span>Kelas Progamming</span>
+        <div class="dropdown-content">
+
+            <a href="#"> 1. PHP</a>
+            <br>
+            2. HTML <br>
+            3. CSS
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+
+    <h4>Ini Tabel Peserta</h4>
+
+    <table id="t01">
+        <tr>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Program</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>2</td>
+            <td>PHP</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>1</td>
+            <td>HMTL</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>ini header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ini body</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>ini footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
